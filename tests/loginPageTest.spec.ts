@@ -18,7 +18,7 @@ await test.step('Open URL',async()=>{
 test.afterEach('Close Browser',async()=>{
    await configPage.closeBrowser();
 })
-
+//To run tests in playwright inspector mode>> Write this command in terminal >> npx playwright test --debug 
 test.describe('Login Functionality',async()=>{
     test('Login with valid credentials',async()=>{
 
